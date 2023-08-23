@@ -1,0 +1,5 @@
+# stage 1
+FROM node:lts as node
+
+# stage 2
+FROM nginx:alpine
